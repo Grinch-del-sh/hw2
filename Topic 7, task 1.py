@@ -1,8 +1,8 @@
-# Get input string and remove any leading/trailing whitespace
-user_input = input("Enter a string (no spaces): ").strip()
+# Вводим строку
+s = input()
 
-# Check if string reads the same forwards and backwards
-if user_input == user_input[::-1]:
+# Проверяем, равна ли строка самой себе в обратном порядке
+if s == s[::-1]:
     print("yes")
 else:
     print("no")
